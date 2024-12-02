@@ -1,0 +1,64 @@
+header{
+    align-items: center;
+    display: flex;
+    font-size: 25px;      
+}
+
+.header-container{
+    width: 30% 70%;
+    float: left;
+}
+
+/* General Styles */
+body {
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px ;
+}
+
+
+
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Article Container */
+.article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.article {
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-6 {
+    width: 50% ;
+    float: left;
+}
+
+img {
+    width: 40%;
+}
+
+footer {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
