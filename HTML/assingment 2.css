@@ -19,11 +19,15 @@ header, footer {
     color: white;
     padding: 20px ;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
-
-footer .footer-container {
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
