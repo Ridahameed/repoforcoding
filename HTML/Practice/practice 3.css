@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+header{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483_640.jpg);
+    color: white;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+
+}
+button{
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feachers{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.feacher{
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  0 2px 6px rgba(0, 0, 0, 0.1);
+}.feacher:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
