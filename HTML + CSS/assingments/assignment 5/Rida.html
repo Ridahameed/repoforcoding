@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Rida.css">
+
+    <style>
+
+       body{
+    line-height: 25px;
+    word-spacing: 2px;
+    margin: 20px; 
+    background-color: #f4f4f4; 
+    color: #050505; 
+        }
+
+    </style>
+        
+</head>
+<body>
+    <!--Part 1-->
+    <div class="container" id="para">
+        <p style="font-size: 20px;"> There are 6 headers in HTML </p>
+        <h1>This is Header 1</h1>
+        <h2>This is Header 2</h2>
+        <h3>This is Header 3</h3>   
+        <h4>This is Header 4</h4>
+        <h5>This is Header 5</h5>
+        <h6>This is Header 6</h6>
+    </div>
+
+    <hr>
+    <!--Part 2-->
+    <div class="container" id="spanDiv">
+        <h1>Span and Div</h1>
+    <p>The span  tag in HTML is an inline 
+        container used to mark up a part of 
+        the text or a small section of a 
+        document.<span>This is span.</span>
+    </p>
+
+    <p>The div tag in HTML is a block-level 
+        container used to group together 
+        related elements in a document. 
+        <div id="part2div">This is div.</div>
+    </p>
+    </div>
+
+    <hr>
+    <!--Part 3-->
+    <div class="container" id="textFormatters">
+        <h1>Text Formatters</h1>
+    <p>Text formatters are used to change the 
+        appearance of text in HTML. The most 
+        common text formatters are: </p>
+        <i>italic</i>
+        <br>
+        <b>bold</b>
+        <br>
+        <u>underline</u>
+        <br>
+        <strong>strong(similar to bold)</strong>
+        <br>
+        <em>emphasis(similar to italic)</em>
+        <br>
+        <mark>highlight</mark>
+        <br>
+        <small>small</small>
+        <br>
+        <del>deleted</del>
+        <br>
+        <ins>inserted(similar to underline)</ins>
+        <br>
+        <p>It's <sub>subscript</sub></p>
+        <br>
+        <p>It's <sup>superscript</sup></p>
+        <br>
+        <s>strikethrough(similar to deleted)</s>
+    </div>
+
+    <hr>
+    <!--Part 4-->
+    <div class="container" id="Lists">
+        <h1>HTML Lists</h1>
+    <p>There are three types of lists in HTML:</p>
+    <h4>1. Unordered List</h4>
+    <ul> <!-- Unordered List -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h4>2. Ordered List</h4>
+    <ol> <!-- Ordered List -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <h4>3. Description List</h4>
+    <dl> <!-- Description List -->
+        <dt>Item 1</dt>
+        <dd>Description 1</dd>
+        <dt>Item 2</dt>
+        <dd>Description 2</dd>
+        <dt>Item 3</dt>
+        <dd>Description 3</dd>
+    </dl>
+    </div>
+
+    <hr>
+    <!--Part 5-->
+    <div class="container" id="Links">
+        <h1>HTML Links</h1>
+    <p>Links are created using the <a href="https://www.example.com">anchor tag</a>. 
+        The href attribute specifies the URL of the page the link goes to.</p>
+    <p>Example of a link: <a href="https://www.example.com">Click here</a></p>
+    <h2>HTML "anchor tag" target element</h2>
+    <p>The target attribute specifies where to open the linked document. 
+        The target attribute can have the following values:</p>
+    <a href="https://www.example.com" target="_blank">open in new Tab</a>
+    <br>
+    <a href="https://www.example.com" target="_self">open in same Tab</a>
+    <br>
+    <a href="https://www.example.com" target="_parent">open in the parent frame</a>
+    <br>
+    <a href="https://www.example.com" target="_top">open in the full body of the window</a>
+    </div>
+
+    <hr>
+    <!--Part 6-->
+    <div class="container" id="Images">
+        <h1>HTML Images</h1>
+    <p>The <img> tag in HTML is used to embed images in a webpage. It is a self-closing tag, 
+        meaning it does not require a closing tag.<br>
+        • Src : Specifies the path to the image file.<br>
+        • Alt : Provides alternative text for the image if it cannot be displayed<br>
+        <img src="img tag .jpg" alt="image">
+        <p>Other attributes can also be used with img tag to make it appropriate.
+            <br>
+            • Width : Specifies the width of the image
+            <br>
+            • Height : Specifies the height of the image
+            <br>
+            • Title : Provides additional information about the image, often displayed as a tooltip 
+            when the mouse hovers over the image.
+        </p>
+        <img src="img tag .jpg" alt="image" width="100" height="100" title="This is an image">
+    </div>
+
+    <hr>
+    <!--Part 7-->
+    <div class="container" id="Tables">
+        <h1>HTML Tables</h1>
+        <p>The table tag in HTML is used to create 
+            tables, which are used to display data in 
+            rows and columns. 
+            A table in HTML consists various child 
+            elements such as tr (table row), th 
+            (table header), and td (table data)</p>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr> <!-- Table Row -->
+                <th>Header 1</th> <!-- Table Header -->
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr> <!-- Table Row -->
+                <td>Data 1</td> <!-- Table Data -->
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr> <!-- Table Row -->
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </table>
+    </div>    
+
+
+</body>
+</html>

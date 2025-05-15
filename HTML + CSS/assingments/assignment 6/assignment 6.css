@@ -1,0 +1,46 @@
+body{
+    font-family:  Arial, sans-serif;
+}
+table{
+    background-color: black;
+    color: white;
+
+    border-radius: 20px;
+}
+.functions{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    border: none;
+}
+#zero{
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    opacity: 0.8;
+
+}
+.lightgrey{
+    background-color: lightgrey;
+    color: black;
+    opacity: 0.8;
+}
+.orange{
+    background-color: orange;
+    font-size: 1.5rem;
+}
+.gray{
+    background-color: rgb(63, 60, 60);
+    opacity: 0.8;
+}
+.screen{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border: none;
+    padding: 100px 0 0 130px;
+    font-size: 3rem;
+    font-weight: lighter;
+}
