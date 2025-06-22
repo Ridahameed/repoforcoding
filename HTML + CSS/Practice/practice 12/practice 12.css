@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+.skills{
+    text-align: center;
+}
+.skills h1{
+    color: gold;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+.skill{
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+.skill p{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.skill-bar{
+    background: #333;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-fill{
+    height: 100%;
+    background: gold;
+    width: 0; 
+
+}
+.skill-fill.html{
+    width: 90%;
+}
+.skill-fill.css{
+    width: 50%;
+}
+.skill-fill.JavaScript{
+    width: 10%;
+}

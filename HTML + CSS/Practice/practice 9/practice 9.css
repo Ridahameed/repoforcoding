@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    line-height: 2px;
+}
+.container {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.about-section {
+    
+    width: 200px; 
+    
+}
+
+.text-section {
+    flex-grow: 1; 
+}
+
+.logoR{
+    border: solid 1px wheat;
+    width: 120px;
+    height: 150px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.5
+}
+.section{
+    border: solid 1px wheat;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.seven{
+    width: 120px;
+    height: 220px;
+}
+.section:hover{
+    opacity: 1;
+}
+.logoR:hover{
+    opacity: 1;
+}
+.font{
+    font-size: 100px;
+    font-weight: bold;
+    color: wheat;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(116, 243, 226);
+    border: solid 1px rgb(116, 243, 226);
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 70px;
+}
+.font2{
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgb(116, 243, 226);
+    color: black;
+    border: solid 1px black;
+}

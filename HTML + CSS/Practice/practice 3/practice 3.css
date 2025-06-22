@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    background-image: url(https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483_640.jpg);
+    background-image: url(bac.webp);
     color: white;
     padding: 50px 20px;
     background-size: cover;
@@ -42,4 +42,16 @@ footer {
     color: white;
     text-align: center;
     padding: 50px 20px;
+}
+button:hover{
+    background-color: rgb(181, 215, 245);
+    color: blue;
+    border: 1px dashed black;
+    font-size: 15px;
+}
+h1:hover{
+    color: black;
+}
+p:hover{
+    color: black;
 }

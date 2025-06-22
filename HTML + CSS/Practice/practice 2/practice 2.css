@@ -30,7 +30,7 @@ main {
 }
 article{
     margin: 35px;
-    padding-bottom: 10px;
+    padding: 10px;
     border: 1px solid lightgray;
 }
 article h2{
@@ -45,4 +45,12 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: wheat;
+}
+article:hover{
+    border: 2px solid gray;
 }

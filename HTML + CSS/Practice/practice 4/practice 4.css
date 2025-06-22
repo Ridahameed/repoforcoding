@@ -48,6 +48,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #a8dadc; /* Hover effect color change */
+    font-size: large;
 }
 
 .cart-icon {
@@ -131,4 +132,12 @@ footer {
     .product {
         width: 100%; /* Full width for single product per row */
     }
+}
+.first{
+    text-decoration: line-through;
+}
+.product img:hover {
+    border-radius: 10px; /* Rounded corners for product images */
+    box-shadow: #333 0px 0px 10px; /* Subtle shadow for product images */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
 }
