@@ -1,45 +1,56 @@
 body{
     background-color: black;
-    color:white;
+    color: white;
     font-family: Arial, sans-serif;
+    
 }
 .skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 40px 400px;
+}
+.skills h1 {
+    color: gold;
+    font-size: 2em;
     text-align: center;
 }
-.skills h1{
-    color: gold;
+.skills h1:hover {
     text-decoration: underline;
-    text-underline-offset: 7px;
+    text-underline-offset: 10px;
+
 }
 .skill{
     max-width: 600px;
-    margin: 20px auto;
-    text-align: left;
+    
+
 }
 .skill p{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
-    font-weight: bold;
+    
 }
 .skill-bar{
-    background: #333;
-    height: 20px;
-    border-radius: 10px;
-    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+    border-radius: 20px;
+   
 }
 .skill-fill{
-    height: 100%;
-    background: gold;
-    width: 0; 
-
+    background-color: gold;
+    height: 30px;
+    border-radius: 20px;
 }
 .skill-fill.html{
     width: 90%;
 }
 .skill-fill.css{
-    width: 50%;
+    width: 80%;
 }
-.skill-fill.JavaScript{
-    width: 10%;
+.skill-fill.js{
+    width: 70%;
 }
+.skill-fill.python{
+    width: 60%;
+}
+

@@ -6,6 +6,9 @@ div{
     border-radius: 50%;
     animation: spinanimate 1s ease-in 0s infinite normal;
 }
+.loader{
+    margin: 200px auto;
+}
 @keyframes  spinanimate {
     from {
         transform  : rotate(0deg);
