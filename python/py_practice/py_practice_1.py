@@ -79,4 +79,9 @@
 # def calculate_area(lentgh, width):
 #     return lentgh * width   # called in py_practice_10
 #----------------------------------------------------------------
-
+# example 
+# num1 = int(input("Enter first number:"))
+# num2 = int(input("Enter second number:"))
+# sum = num1 + num2
+# print(sum)
+#---------------------------------------------------------------

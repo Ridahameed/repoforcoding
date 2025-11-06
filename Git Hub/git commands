@@ -3,3 +3,14 @@ git status
 git add .
 git commit -m "comment"
 git push origin main
+git remote add origin "link"
+git log
+git config --global user.name "User Name"
+git config --global user.email "Email"
+git status
+git branch
+git branch "branch name"
+git checkout -b "branch name"
+git checkout "branch"
+
+  
