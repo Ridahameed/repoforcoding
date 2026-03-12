@@ -57,7 +57,7 @@ h1:hover {
 
 /* --------------------------------main section----------------------------------- */
 .hero {
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,6 +83,7 @@ h1:hover {
     border-radius: 10px;
     border: none;
     transition: background 0.3s ease;
+    font-size: 1.5rem;
 }
 
 .btn:hover {
@@ -148,7 +149,7 @@ h1:hover {
 }
 
 #skills {
-    height: 60vh;
+    height: 80vh;
 }
 
 /* -----------------------------------projects section -------------------------------------*/
@@ -211,6 +212,7 @@ h2 {
 /* --------------------------------footer------------------------------ */
 
 footer {
+    margin-bottom: 0%;
     background-color: #333;
     color: white;
     text-align: center;
