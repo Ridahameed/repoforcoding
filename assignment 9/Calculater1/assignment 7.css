@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculater {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 190px 50px 50px 50px 50px;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    padding: 10px;
+}
+
+.screen {
+    grid-column: span 4;
+    opacity: 0.8;
+    border: none;
+    padding: 120px 0 0 0;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: right;
+    
+}
+
+.btn {
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.zero {
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+    grid-column: span 2;
+    background-color: rgb(94, 91, 91);
+    border: none;
+    border-radius: 20px;
+    width: 115px;
+    height: 50px;
+}
+
+.lightgray {
+    background-color: lightgray;
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.darkgray {
+    background-color: rgb(94, 91, 91);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.zero:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 320px) and (max-width: 563px) {
+    body {
+        background-color: rgb(240, 226, 206);
+    }
+}
+
+@media (min-width: 564px) and (max-width: 768px) {
+    body {
+        background-color: rgb(224, 250, 246);
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(229, 243, 203);
+    }
+
+}
