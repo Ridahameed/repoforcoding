@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    height: 60px;
+    height: 6rem;
     background-color: #0f1111;
     color: white;
     display: flex;
@@ -30,6 +30,7 @@
 }
 
 .border {
+    padding: 0.9rem;
     border: 2px solid transparent;
 }
 
@@ -148,32 +149,32 @@ span {
     font-size: 0.9rem;
     font-weight: 700;
 }
+.panel p:hover {
+    text-decoration: underline;
+    padding: 0.5px;
+    cursor: pointer;
+}
+
 
 /* hero section */
 
-.hero-section {
-    background-image: url(main\ contant\ 1.jpg);
-    background-size: cover;
-    height: 130px;
-    width: 1300px;
-    margin: 20px;
+.hero-section img {
+    height: auto;
+    width: 100%;
 
 }
 
-.hero-msg {
-    background-image: url(msg-image.jpg);
-    background-size: cover;
-    width: 1200px;
-    height: 60px;
-    margin: 20px;
-
+.hero-msg img {
+    height: 100%;
+    width: 100%;
 }
 
 /* shop section */
 
 .shop-section {
     display: flex;
-    justify-content: space-evenly;
+    gap: 20px;
+    margin: 10px;
 }
 
 .shop-section p {
@@ -184,8 +185,13 @@ span {
 }
 
 .box {
-    height: 251px;
+    height: 240px;
     width: 23%;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+}
+.box:hover { 
+    transform: translateY(-10px);
 }
 
 .box-image {
@@ -207,6 +213,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+    cursor: pointer;
 
 }
 
