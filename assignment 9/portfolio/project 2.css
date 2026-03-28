@@ -46,7 +46,8 @@ a:hover {
 
 h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
+    font-size: 50px;
 }
 
 h1:hover {
@@ -57,17 +58,16 @@ h1:hover {
 
 /* --------------------------------main section----------------------------------- */
 .hero {
-    height: 80vh;
+    margin-top: 200px;
+    height: 70vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 20px;
 }
 
 .hero-content h2 {
-    font-size: 48px;
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 20px;
     color: #FFD700;
 }
 
@@ -101,27 +101,35 @@ h1:hover {
 }
 
 .skills h2 {
-    color: gold;
-    margin-bottom: 30px;
-    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+.skills h2:hover {
+    color: #FFD700;
+    text-decoration: underline;
+    text-underline-offset: 7px;
 }
 
 .skill {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     text-align: left;
 }
-
+.skill_box {
+    margin-top: 7rem;
+}
 .skill p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .skill-bar {
     background: #333;
-    height: 20px;
+    height: 40px;
     border-radius: 50px;
     overflow: hidden;
 }
@@ -157,7 +165,7 @@ h1:hover {
 .work {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 3fr));
-    padding: 20px;
+    padding: 40px 20px;
     justify-content: center;
     gap: 50px;
 }
@@ -184,7 +192,7 @@ h2 {
 /* -------------------------------------contact-------------------------------  */
 
 .contact {
-    height: 60vh;
+    height: 80vh;
     padding: 40px 20px;
     background-color: #111;
     color: white;
